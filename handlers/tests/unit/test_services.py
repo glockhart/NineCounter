@@ -27,9 +27,7 @@ class TestServices(TestCase):
     def setUp(self) -> None:
         logger.info("Executing setup method")
         #Create a mock dynamodb
-        #dynamodb = boto3.resource('dynamodb')
-        #mocked_dynamodb_resource = dynamodb
-        mocked_dynamodb_resource = { "resource" : boto3.resource('dynamodb'),
+        mocked_dynamodb_resource = { "resource" : boto3.resource('dynamodb', region_name="eu-west-1"),
                                      "table_name" : "AwsServiceSLAs"  }
 
         self.mocked_dynamodb_class = LambdaDynamoDBClass(mocked_dynamodb_resource)

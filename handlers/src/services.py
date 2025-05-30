@@ -11,7 +11,7 @@ logger.setLevel(logging.INFO)
 TABLE_NAME = os.environ.get('DDB_TABLE', 'AwsServiceSLAs')
 logger.info("Reading from %s", TABLE_NAME)
 
-_LAMBDA_DYNAMODB_RESOURCE = { "resource" : boto3.resource('dynamodb'), 
+_LAMBDA_DYNAMODB_RESOURCE = { "resource" : boto3.resource('dynamodb', region_name="eu-west-1"), 
                               "table_name" : TABLE_NAME }
 
 class LambdaDynamoDBClass:
