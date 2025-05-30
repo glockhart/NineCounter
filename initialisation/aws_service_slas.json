@@ -1,0 +1,147 @@
+[
+  {
+    "ServiceName": "Amazon API Gateway",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.95, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon AppFlow",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 30},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon AppStream 2.0",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Athena",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Aurora (Multi-AZ)",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.99, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Aurora (Single-AZ)",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Aurora DSQL (Multi-Region)",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.999, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Aurora DSQL (Single-Region)",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.99, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Bedrock",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Braket",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Chime",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Chime SDK",
+    "SLARanges": [
+      {"LowerBound": 99.9, "UpperBound": 99.99, "CreditPercent": 10},
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Chime Voice Connector",
+    "SLARanges": [
+      {"LowerBound": 99.9, "UpperBound": 99.99, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon Cloud Directory",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon CloudFront",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon CloudSearch",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon CloudWatch",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 25},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  },
+  {
+    "ServiceName": "Amazon CodeCatalyst",
+    "SLARanges": [
+      {"LowerBound": 99.0, "UpperBound": 99.9, "CreditPercent": 10},
+      {"LowerBound": 95.0, "UpperBound": 99.0, "CreditPercent": 30},
+      {"LowerBound": 0.0, "UpperBound": 95.0, "CreditPercent": 100}
+    ]
+  }
+]
