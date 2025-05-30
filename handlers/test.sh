@@ -1,1 +1,1 @@
-pytest -v --cov -o log_cli=true
+pytest -v --cov --cov-report html:cov_htlm -o log_cli=true
