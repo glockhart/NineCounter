@@ -1,0 +1,1 @@
+pytest -v --cov -o log_cli=true

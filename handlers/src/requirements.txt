@@ -1,0 +1,8 @@
+boto3
+flake8
+pytest
+pytest-cov
+moto[all]
+aws_lambda_powertools
+validators
+fastjsonschema
