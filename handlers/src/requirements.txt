@@ -1,8 +1,9 @@
-boto3
-flake8
-pytest
-pytest-cov
-moto[all]
-aws_lambda_powertools
-validators
-fastjsonschema
+boto3==1.38.25
+botocore==1.38.25
+flake8==7.2.0
+pytest==8.3.5
+pytest-cov==6.1.1
+moto[all]==5.1.5
+aws_lambda_powertools==3.13.0
+validators==0.35.0
+fastjsonschema==2.21.1
